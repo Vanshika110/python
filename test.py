@@ -87,24 +87,6 @@ for el in range(2):
     pass    #to skip"""
     
 
-f=open("sample.py","w")
-f.write("hello")
-f.close()
-f=open("sample.py","at")
-f.write("\n i am vanshika ")
-f.close()
-f=open("sample.py","r+")
-f.write("\n i am vanshika ")
-f.close()
-f=open("sample.py","a+")
-f.write("\n i am priya ")
-f.close()
-f=open("sample.py","r")
-print(f.read())
-with open("sample.py","a") as f:  #automa
-    data=f.write("byee")
-    print(data)
-
 
 
 
